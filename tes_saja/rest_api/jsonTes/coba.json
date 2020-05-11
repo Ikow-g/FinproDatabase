@@ -1,0 +1,30 @@
+[
+    {
+        "nama": "Richard Tandy Japutra",
+        "umur": 17,
+        "NRP": "07392834",
+        "lulus": false,
+        "hobby": [
+            "coding",
+            "programing"
+        ],
+        "guru": {
+            "PBO": "Syaiful",
+            "BASDAT": "Hendra"
+        }
+    },
+    {
+        "nama": "Richard Tandy Japutra",
+        "umur": 17,
+        "NRP": "07392834",
+        "lulus": false,
+        "hobby": [
+            "coding",
+            "programing"
+        ],
+        "guru": {
+            "PBO": "Syaiful",
+            "BASDAT": "Hendra"
+        }
+    }
+]

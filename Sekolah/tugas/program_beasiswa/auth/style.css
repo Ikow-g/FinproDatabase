@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: #0008;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-color: #0008;
+}
+
+.first{
+  height: 20%;
+  height: 44%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  left: 24%;
+  top: 50%;
+}
+
+input:focus{
+  border: 2px solid #16a085;
+  transition: 0.6s all;
+}
+
+img{
+  position: absolute;
+  left: 34.5%;
+  top: -5%;
+}
+
+.container{
+  width: 44%;
+  height: 60%;
+  background: #fff;
+  padding-bottom: 130px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 58%;
+  top: 50%;
+  box-shadow: 5px 3px 15px 4px;
+}
+
+.container2{
+  width: 44%;
+  height: 60%;
+  background: #fff;
+  padding-bottom: 130px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 58%;
+  top: 50%;
+  box-shadow: 5px 3px 15px 4px;
+}
+
+h2{
+  position: absolute;
+  left: 45%;
+  top: 2%;
+}
+
+#notice{
+  position: absolute;
+  left: 34%;
+  top: 10%;
+  color: red;
+  display: none;
+}
+
+#email{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 24%;
+  width: 83%;
+  height: 10%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#password{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 83%;
+  height: 10%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#email2{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 22%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#email3{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#number{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 44%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#phone{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#password2{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 66%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+#confirm{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 77%;
+  width: 83%;
+  height: 8%;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+
+button{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  width: 85%;
+  background-color: #16a085;
+  font-size: 17px;
+  font-weight: normal;
+  color: #fff;
+  border: none;
+  transition: 1s all;
+}
+
+button:hover{
+  background: aqua;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+#button{
+  height: 8%;
+  top: 82%;
+}
+
+#button2{
+  height: 8%;
+  top: 89%;
+}
+
+a{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 92%;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.6s all;
+}
+
+#lupa{
+  color: red;
+  left: 70%;
+}
+
+#daftar{
+  color: #0000EE;
+  cursor: pointer;
+  left: 28%;
+  user-select: none;
+}
+
+#punya{
+  color: blue;
+  left: 50%;
+  top: 96%;
+  cursor: pointer;
+  user-select: none;
+}
+
+#lupa:hover{
+  color: #0000EE;
+  transition: 0.6s all;
+}
+
+#daftar:hover{
+  color: red;
+  transition: 0.6s all;
+}
+
+#punya:hover{
+  color: aqua;
+  transition: 0.6s all;
+}
+
+
+h3{
+  color: #fff;
+  position: absolute;
+  left: 40%;
+  top: 78%;
+}

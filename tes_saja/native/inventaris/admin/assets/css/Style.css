@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body nav {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: indianred;
+}
+
+body nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+body nav ul li {
+    padding: 10px 15px;
+}
+
+body nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+body nav ul li a:hover {
+    padding-left: 10px;
+    color: brown;
+
+}
+
+body main {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    padding: 2em;
+}

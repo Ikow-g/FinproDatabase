@@ -1,0 +1,27 @@
+{
+  "name": "number-divider",
+  "homepage": "https://tyugaev.github.io/number-divider/",
+  "authors": [
+    "Mikhail Tyugaev <tugayev.m.v@gmail.com>"
+  ],
+  "description": "jQuery number divider plugin",
+  "main": "dist/number-divider.js",
+  "keywords": [
+    "jquery-plugin",
+    "separator",
+    "delimiter",
+    "divider",
+    "number"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "gulpfile.js",
+    "package.json",
+    "example.html"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.1"
+  }
+}
